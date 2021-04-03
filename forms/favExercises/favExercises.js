@@ -10,7 +10,9 @@ favExercises.onshow=function(){
 }
 
 btnSelection.onclick=function(){
-    if (selExercises.text == coreExercises)
+    results1 = selExercises.text.includes("situps")
+    results2 = selExercises.text.includes("plank")
+    if (results1 == true && results2 == true)
         lblAnswer.value = 'You chose situps and planks - those are the two core exercises.' 
     else
         lblAnswer.value = 'You did not pick the two core exercises.'
