@@ -18,10 +18,7 @@ hmbMenu.onclick=function(s){
                 case "Mobile Nav":
                     return
                     break
-                    
-                default:
-                    return
-                    break
+                
             }
     }
 }
